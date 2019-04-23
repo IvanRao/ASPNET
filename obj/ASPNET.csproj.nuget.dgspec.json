@@ -1,34 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\irao\\Desktop\\ASPNET\\ASPNET.csproj": {}
+    "G:\\GitHub Repositories\\ASPNET\\ASPNET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\irao\\Desktop\\ASPNET\\ASPNET.csproj": {
+    "G:\\GitHub Repositories\\ASPNET\\ASPNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irao\\Desktop\\ASPNET\\ASPNET.csproj",
+        "projectUniqueName": "G:\\GitHub Repositories\\ASPNET\\ASPNET.csproj",
         "projectName": "ASPNET",
-        "projectPath": "C:\\Users\\irao\\Desktop\\ASPNET\\ASPNET.csproj",
-        "packagesPath": "C:\\Users\\irao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irao\\Desktop\\ASPNET\\obj\\",
+        "projectPath": "G:\\GitHub Repositories\\ASPNET\\ASPNET.csproj",
+        "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+        "outputPath": "G:\\GitHub Repositories\\ASPNET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\irao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://vcs:8081/nexus/service/local/nuget/ZooLogicNuget": {},
-          "http://vcs:8081/nexus/service/local/nuget/ZooLogicNugetRC": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
@@ -68,6 +65,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
             }
           },
           "imports": [
